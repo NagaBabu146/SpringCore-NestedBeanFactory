@@ -1,0 +1,6 @@
+CREATE TABLE `restaurants` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  `food` varchar(45) DEFAULT NULL,
+  `city` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)) 
